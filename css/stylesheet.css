@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+*{  margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+
+}body{ 
+
+    
+    
+    
+  
+
+
+    background-image: url(1234.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500vh;
+  
+
+        
+
+
+}.profile-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+    
+    
+    
+    background-color: rgba(6, 61, 243, 0.1);
+    backdrop-filter: blur(30px);
+    padding: 25px;
+    box-shadow:5px 10px 15px;
+    border-radius: 24px;
+
+
+    
+   
+    
+    
+
+
+
+
+}.image{
+   
+    height: 150px;
+    width: 150px;
+   margin-bottom: 10px;
+
+
+
+}.profile-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid blue;
+    background-color: aqua;
+    
+
+
+
+}.profile-card .text-data{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}.name{
+margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    color: crimson;
+}.job{
+    font-weight: 600;
+    margin-bottom: 20px;
+}.buttons .button{
+        background-color: blue;
+        margin:10px 10px;
+        width:80%;
+        border: none;
+        padding: 5px 20px;
+        border-radius: 24px;   
+        color: white;
+        font-size: 14px;
+        margin-top: 20px;
+
+
+    
+}.youtube-sub{
+
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+
+}.buttons .button:hover{
+    background-color: rgb(83, 83, 242);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    transform: translate3d(50%,50%);
+
+
+        
+
+}.analytics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    
+}.analytics .data{
+    border-right: 2px solid black;
+    padding:0 20px;
+
+    
+}.analytics .data:last-child{
+
+    border-right: none;
+}.data .numbers{
+
+    font-size: 13px;
+}nav{
+    background-color: black;
+    padding: 1em;
+    height: 6rem;
+    color: aliceblue;
+    overflow: visible;
+    display: flex;
+    
+     
+    
+    
+    
+}nav ul{
+
+    
+    
+
+    list-style-type:none;
+    display: flex;
+    padding-top: 10px;
+
+    
+
+   
+
+   
+    
+    
+}nav ul li{
+    display: flex;
+    margin-left: 5rem;
+    
+   
+   
+
+
+  
+    
+}nav ul li a {
+    text-decoration: none;
+    color: aqua;
+    font-weight: bold;
+    font-style: oblique;
+   
+}nav ul li :hover{
+    cursor:pointer;
+   transform: scale(1.5, 1.5);
+    transition: all ease;
+    
+    transition-duration: 400ms;
+    
+}.imglogo{
+   
+    width: 5rem;
+    height: 5rem;
+
+    
+}
